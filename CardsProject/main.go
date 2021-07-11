@@ -17,4 +17,7 @@ func main() {
 
 	retriveCards := newDeckFromFile("my_cards")
 	retriveCards.print()
+	fmt.Println("------------> shuffle")
+	cards.shuffle()
+	cards.print()
 }
