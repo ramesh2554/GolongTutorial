@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(&p)*/
 	// & -------> i want to hold a reference of things like address
 	// * -------> when we use * it means its a pointer
+
 	var lifebooster float64 = 99.2 // assign value
 	lifeboosterRef := &lifebooster // stores address , (we can't declare var = lifeboosterRef = &lifebooster
 
