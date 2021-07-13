@@ -30,8 +30,14 @@ func main() {
 	delete(colors, "white")
 	fmt.Println("After deleting into map elements -------> ", colors)
 
-	// Iterating Over a maps
+	// Iterating Over a maps using function
 	printMap(colors)
+
+	// iterating Over a for loop
+	for i, h := range colors {
+		fmt.Println("-----------------------------", i, h)
+	}
+
 }
 func printMap(c map[string]string) {
 	for color, hex := range c {
